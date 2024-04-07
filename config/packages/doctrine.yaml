@@ -1,4 +1,6 @@
 doctrine:
+    schema_filter: ~^(?!session)~
+
     dbal:
         url: '%env(resolve:DATABASE_URL)%'
 
