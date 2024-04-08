@@ -27,3 +27,4 @@
 /.idea/
 composer.lock
 package-lock.json
+/public/uploads
